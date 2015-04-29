@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/EPUBManager">
+    <Resource driverClassName="com.mysql.jdbc.Driver" factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="50000" name="jdbc/EPUBManager" password="root" removeAbandoned="true" removeAbandonedTimeout="90" scope="Container" testWhileIdle="true" timeBetweenEvictionRunsMillis="50000" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/epubmanager" username="root" validationQuery="select 1"/>
+</Context>
